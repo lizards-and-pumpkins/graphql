@@ -52,6 +52,7 @@ class GraphQLRequestHandler implements HttpRequestHandler
         return [
             'Access-Control-Allow-Origin' => '*',
             'Access-Control-Allow-Methods' => '*',
+            'Access-Control-Allow-Headers' => 'Content-Type',
             'Content-Type' => 'application/json',
         ];
     }
